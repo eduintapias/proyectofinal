@@ -7,6 +7,7 @@ import { MenuComponent } from './global/menu/menu.component';
 import { CanastaComponent } from './global/canasta/canasta.component';
 import { HomeComponent } from './global/pages/home/home.component';
 import { appRouter } from './routing';
+import { CategoriaComponent } from './global/pages/categoria/categoria.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { appRouter } from './routing';
     HeaderComponent,
     MenuComponent,
     CanastaComponent,
-    HomeComponent
+    HomeComponent,
+    CategoriaComponent
   ],
   imports: [
     BrowserModule,
